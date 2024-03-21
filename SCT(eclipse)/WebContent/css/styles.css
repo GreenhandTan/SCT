@@ -1,0 +1,325 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-size: 14px;
+	font-family: "microsoft yahei";
+}
+body{
+	background-color: #FFFFFF;
+	overflow: hidden;
+}
+.header{
+	height: 90px;
+	background-color: #467fe6;
+}
+.header .logo{
+	background: url(../img/logo2.jpg) no-repeat;
+	margin-top: 10px;
+	margin-left: 20px;
+	height: 90px;
+	font-size: 40px;
+	font-weight: bold;
+	color: #FFFFFF;
+	line-height: 60px;
+	padding-left: 100px;
+	float: left;
+	width: 500px;
+}
+.header .user{
+	height: 90px;
+	font-size: 20px;
+	font-weight: bold;
+	color: #FFFFFF;
+	line-height: 80px;
+	float: right;
+	margin-right: 50px;
+	padding: 0px 30px;
+	cursor: pointer;
+}
+.header .user .point{
+	float: right;
+	margin-top: 30px;
+	margin-left: 15px;
+}
+.header .user:hover ul{
+	display: block;
+}
+.header .user ul{
+	list-style: none;
+	background-color: #FFFFFF;
+	border-radius: 5px;
+	box-shadow: 2px 2px 3px #CCCCCC;
+	position: absolute;
+	z-index: 999;
+	display: none;
+}
+.header .user ul li{
+	height: 80px;
+	line-height: 80px;
+	border-bottom: 1px dotted #CCCCCC;
+}
+.header .user ul li a{
+	color: #333333;
+	font-size: 18px;
+	font-weight: normal;
+	text-decoration: none;
+	padding: 0px 25px;
+	display: block;
+}
+.header .user ul li a:hover{
+	background-color: #F2F7FF;
+}
+.left{
+	background: url(../img/div_left.png) no-repeat center 280px;
+	position: absolute;
+	width: 300px;
+	float: left;
+	left: 0px;
+	bottom: 0px;
+	top: 90px;
+	background-color: #FFFFFF;
+	border: 1px solid #e1e1e1;
+}
+.left .title{
+	height: 70px;
+	line-height: 70px;
+	background-color: #e9e9e9;
+	border: 1px solid #e1e1e1;
+	font-size: 20px;
+	color: #333333;
+	font-weight: bold;
+	text-align: center;
+	border-radius: 20px;
+}
+.menux p{
+	height: 50px;
+	line-height: 50px;
+	background-color: #f8f8f8;
+	border: 1px solid #e1e1e1;
+	border-radius: 20px;
+	font-size: 20px;
+	color: #333333;
+	font-weight: bold;
+	padding-left: 50px;
+	box-sizing: border-box;
+}
+.menux p i{
+	color: #467FE6;
+}
+.menux p:hover{
+	background-color: #467FE6;
+	color: #FFFFFF;
+	cursor: pointer;
+}
+.menux p:hover i{
+	color: #FFFFFF;
+	cursor: pointer;
+}
+.menux p .point{
+	float: right;
+	margin-top: 15px;
+	margin-right: 20px;
+	color: #999999 !important;
+}
+.menux ul{
+	list-style: none;
+	display: none;
+}
+.menux ul li{
+	line-height: 35px;
+	height: 35px;
+	border-bottom: 1px dotted #cccccc;
+	box-sizing: border-box;
+	color: #666666;
+}
+.menux ul li i{
+	color: #467FE6;
+}
+.menux ul li:hover{
+	background-color: #f2f7ff;
+	color: #467FE6;
+}
+.menux ul li a{
+	display: block;
+	padding-left: 90px;
+	color: #666666;
+	text-decoration: none;
+}
+.menux ul li a:hover{
+	color: #467FE6;
+}
+.main{
+	float: right;
+	position: absolute;
+	left: 305px;
+	bottom: 0px;
+	right: 0px;
+	top: 90px;
+}
+.location{
+	height: 90px;
+	line-height: 90px;
+	border-left: 8px solid #467FE6;
+	border-right: 1px solid #E1E1E1;
+	border-bottom: 1px solid #E1E1E1;
+	background-color:#FFFFFF;
+	padding-left: 40px;
+	box-sizing: border-box;
+	font-size: 30px;
+	border-radius: 8px;
+}
+.location .menu_title{
+	font-size: 30px;
+}
+.condition{
+	background-color: #FFFFFF;
+	border: 1px solid #E1E1E1;
+	margin-top: 10px;
+	padding: 10px 20px;
+	font-size: 18px;
+	color: #666666;
+}
+.condition input{
+	margin-right: 40px;
+	height: 30px;
+	width: 200px;
+	border: 1px solid #E0E0E0;
+	border-radius: 5px;
+}
+.condition button{
+	margin-right: 40px;
+	height: 30px;
+	width: 200px;
+	border: 1px solid #E0E0E0;
+	border-radius: 5px;
+	cursor: pointer;
+	font-size: 18px;
+}
+.condition button:hover{
+	background-color: #0064CD
+}
+.mybuttondiv{
+	width:100%;
+	height:40px;
+}
+.mybuttondiv button{
+	position: absolute;
+	right: 50px;
+	height: 40px;
+	width: 150px;
+	border: 1px solid #E0E0E0;
+	border-radius: 5px;
+	cursor: pointer;
+	font-size: 18px;
+}
+.mybuttondiv button:hover{
+	background-color: #0064CD
+}
+.tablelist{
+	margin-top: 10px;
+	width: 100%;
+	border: 1px solid #f0f0f0;
+	background-color: #FFFFFF;
+	border-collapse: collapse;
+}
+.tablelist th{
+	background-color: #F8F8F8;
+}
+.tablelist th,td{
+	height: 40px;
+	border: 1px solid #e0e0e0;
+}
+.tablelist td{
+	padding: 0px 10px;
+}
+.tablelist tr:hover{
+	background-color: #F2f7ff;
+}
+.tablelist .edit{
+	color: #005f98;
+}
+.tablelist .remove{
+	color: crimson;
+}
+.tablelist .edit,.tablelist .remove{
+	background-color: transparent;
+	border: 1px solid transparent;
+	cursor: pointer;
+	margin-left: 10px;
+	width: 100px;
+	font-size: 20px;
+}
+.tablelist .edit:hover,.tablelist .remove:hover{
+	border: 1px solid #467FE6;
+}
+.page{
+	width: 100%;
+	border-left: 1px solid #f0f0f0;
+	border-right: 1px solid #f0f0f0;
+	border-bottom: 1px solid #f0f0f0;
+	background-color: #FFFFFF;
+	border-collapse: collapse;
+	height: 40px;
+}
+.page td{
+	padding-left: 900px;
+}
+.page button{
+	background-color: #467FE6;
+	color: #FFFFFF;
+	padding: 8px 10px;
+	font-size: 16px;
+	margin-right: 10px;
+	border: 0px;
+	border-radius: 10px;
+	cursor: pointer;
+}
+.page button:hover{
+	background-color: #0064cd;
+}
+.page-no{
+	width: 60px;
+	height: 35px;
+	border-radius: 5px;
+	border: 1px solid #E0E0E0;
+}
+.add{
+	width: 99%;
+	position: absolute;
+	bottom: 0px;
+	top: 5px;
+	left: 3px;
+	background-color: #FFFFFF;
+	border: 1px solid #F0F0F0;
+}
+.tableadd{
+	margin-top: 30px;
+	margin: auto;
+}
+.tableadd td{
+	height: 50px;
+	padding-left: 20px;
+	font-size: 25px;
+	color: #666666;
+	border: 0px;
+}
+.tableadd td input{
+	height: 40px;
+	margin-right: 40px;
+	width: 200px;
+	border: 1px solid #E0E0E0;
+	border-radius: 5px;
+}
+.tableadd td button{
+	background-color: #467FE6;
+	color: #FFFFFF;
+	padding: 8px 10px;
+	font-size: 16px;
+	margin-right: 10px;
+	border: 0px;
+	border-radius: 10px;
+	cursor: pointer;
+}
+.tableadd td button:hover{
+	background-color: #0064cd;
+}
